@@ -7,7 +7,7 @@ if [ $# -ne 1 ]; then
 fi
 
 source_directory="$1"
-mime_master_directory="$HOME/mime_master"
+mime_master_directory="$HOME/mime_mover"
 
 # Check if the provided path is a directory
 if [ ! -d "$source_directory" ]; then
